@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous">
+    <title>Portofoilo Saya</title>
+</head>
+<style>
+    * {
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+
+    .jumbotron {
+        width: 100%;
+        height: 250px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
+        background-position: center;
+        background-size: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .foto {
+        width: 50%;
+        max-width: 500px;
+        margin: 60px auto 0 auto;
+
+    }
+
+    .portofolio {
+        width: 100%;
+        max-width: 600px;
+        margin: 60px auto 0 auto;
+        background-color: aquamarine;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#container">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portofolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    </nav>
+    <div class="jumbotron"  div class="jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-2">My Portofolio</h1>
+            <p class="lead">Selamat datang di portofolio Kami</p>
+        </div>
+    </div>
+    <div class="foto">
+        <img src="image\foto.jpg" width="150" height="ms-auto"
+            align="center" class="rounded mx-auto d-block"" alt=" ...">
+    </div>
+    <section class="bg-white">
+      <div class="portofolio">
+        <h2 class="text-center mb-5">Portofolio</h2>
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <img class="img-fluid" src="image/image1.jpeg" alt="">
+            <h3 class="mb-3">Menulis</h3>
+            <p> saya menulis baru Satu jurnal akan dipresentasikan nanti pada tanggal 9 Maret 2023.</p>
+            <a class="btn btn-primary" href="https://icobest.unikom.ac.id/">Situs</a>
+          </div>
+          <div class="col-md-4 mb-5">
+            <img class="img-fluid" src="image/image2.jpeg" alt="">
+            <h3 class="mb-3">Organisasi</h3>
+            <p>Saya menjadi beberapa anggota Organisasi diantaranya HMI,Protokoler dan Himpunan</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+          <div class="col-md-4 mb-5">
+            <img class="img-fluid" src="image/image3.jpeg" alt="">
+            <h3 class="mb-3">Gaming</h3>
+            <p>Saya memiliki ketertarikan dalam bermain games khususnya Mobile Legend</p>
+            <a class="btn btn-primary" href="image/image-4.jpeg">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bg-light">
+        <div class="container">
+          <h2 class="text-center mb-5">Contact Me</h2>
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kumpulkan</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9145344145745!2d107.6809132137928!3d-6.900824269448633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd2872128dd5%3A0x682288177c7d3498!2sTBB%20BLOK%208%20NO%2019A!5e0!3m2!1sid!2sid!4v1677854805325!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://web.facebook.com/profile.php?id=100009425337571!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/kandias_11/?hl=id"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/Kandias-11 !"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      
+
+</body>
+
+</html>
